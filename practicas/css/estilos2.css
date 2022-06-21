@@ -1,0 +1,234 @@
+* {   
+    margin: 0px;   
+    padding: 0px; 
+}
+#agrupar{
+width: 100%;
+height: auto;
+padding: 10px;
+}
+#cabecera{
+    width: 95.5%;
+    height: auto;
+    background-color: rgb(254, 229, 0);
+    padding: 20px;
+}
+#cabecera h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#cabecera nav{
+    background-color: rgb(0, 245, 65);
+    height: 10%;
+    width: 100%;
+    border: 2px solid rgb(29, 0, 248);
+}
+#cabecera nav li{
+    padding-top: 1.8%;
+    display: inline-block;
+    list-style: none; 
+    color: rgb(6, 201, 255);
+    padding-left: 40px;
+    font-size: 20px;
+
+}
+#cabecera nav li a{
+    text-decoration: none;
+    color: rgb(252, 125, 7);
+}
+#cabecera form {
+    height: 60px; 
+    width: 25%;
+    float: right;
+}
+#cabecera form input[type="text"]{
+    margin-top: 10px;
+    padding: 10px;
+}
+#cabecera form  input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    float: right;
+}
+section , article , .descripcion , .ingredientes, .elaboracion{
+    display: block;
+
+
+}
+#principal{
+    float: left;
+    width: 70%;
+    padding-top: 30px;
+    background-color: rgb(1, 166, 255);
+    margin-left: 1%;
+}
+#principal h2{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+#principal1{
+    float: left;
+    width: 98.5%;
+}
+#principal #receta{
+     width: auto;
+     height: 400px;    
+}
+#principal #receta .ingredientes{
+    float: left;
+    width: 200px;
+    background-color: rgb(1, 94, 255);
+    height: auto;
+    margin-top: 20px;
+    margin-left: 35px;
+ }
+ #principal #receta .ingredientes li{
+  list-style: none;
+ }
+ #principal #receta .elaboracion{
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+    background-color: rgb(191, 255, 0);
+    float: right;
+    margin-right: 100px;
+ }
+ #principal #receta .descripcion p{
+     padding: 10px 10px 10px 10px;
+}
+#receta1 fieldset legend{
+    font-size: 20px;
+    margin-left: 15px;
+}
+#principal #receta fieldset legend{
+  font-size: 18px;
+}
+#principal #receta fieldset{
+    margin: 20px 0px 10px 10px;
+    padding-bottom: 20px
+}
+
+
+/*parte de la receta 2*/
+#principal #receta2{
+    background-color: rgba(0, 190, 85, 0.427);
+    width: auto;
+    height: 780px;
+
+}
+#principal #receta2 .ingredientes{
+   float: left;
+   width: 200px;
+   background-color: darkslateblue;
+   height: auto;
+   margin-top: 20px;
+   margin-left: 25px;
+   margin-right: 10px;
+   padding: 10px;
+} 
+
+#principal #receta2 .ingredientes li{
+ list-style: none;
+}
+#principal #receta2 .elaboracion{
+   margin-top: 20px;
+   width: 300px;
+   height: auto;
+   background-color: rgb(95, 158, 160);
+   float: right;
+   margin-right: 50px;
+   margin-bottom: 15px;
+   padding: 25px;
+}
+#principal #receta2 .descripcion p{
+    padding: 10px 10px 10px 10px;
+}
+/*parte de la receta pecado*/
+#principal #receta3{
+    background-color: rgb(252, 130, 0);
+    width: auto;
+    height: 620px;
+
+}
+#principal #receta3 .ingredientes{
+   float: left;
+   width: 200px;
+   background-color: rgb(1, 200, 255);
+   height: auto;
+   margin-top: 20px;
+   margin-left: 35px;
+}
+#principal #receta3 .ingredientes li{
+ list-style: none;
+}
+#principal #receta3 .elaboracion{
+   margin-top: 20px;
+   width: 300px;
+   height: auto;
+   background-color: rgb(0, 140, 187);
+   float: right;
+   margin-right: 100px;
+}
+#principal #receta3 .descripcion p{
+    padding: 10px 10px 10px 10px;
+}
+#principal #receta4{
+    margin-top: 20px;
+    background-color: rgb(187, 247, 6);
+    width: auto;
+    height: 200px;
+
+}
+#infoadicional{
+    float: right;
+    width: 19%;
+    padding: 20px;
+    background-color: rgb(252, 127, 3);
+    margin-right: 5%;
+}
+#infoadicional p{
+    text-align: center;
+    padding: 20px;
+}
+#infoadicional #publicidad{
+    /*position: relative;*/
+    overflow: hidden;
+    height: 150px;
+    background-color: rgb(212, 255, 0);
+}
+#infoadicional #publicidad #inferior{
+    width: 30px;
+    height: 15px;
+    padding-top: 15px;
+    background-color: rgba(7, 255, 214, 0.8);
+}
+#infoadicional #publicidad img{
+  position: relative;
+  width: 300px;
+  height: 170px;
+  transition: top 0.5s ease-in-out 0s;
+}
+#infoadicional #con-padre{
+    position: relative;
+    width: auto;
+    height: 250px;
+    overflow: hidden;
+    background-color: rgb(76, 0, 255);
+    text-align: center;
+}
+#infoadicional #con-padre #cont{
+    position: absolute;
+    top: 0px;
+    width: auto;
+    height:100px;
+    background-color: rgb(108, 243, 108);
+    text-align: center;
+}
+#pie{
+    float: center; 
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ec1717;
+    background-color: goldenrod;
+}
